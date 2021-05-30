@@ -18,8 +18,8 @@
     justify-content: center;
     position: fixed;
     top: 0;
-    transition: 850ms;
-    left: -100%;
+    /* transition: 850ms;
+    left: -100%; */
 }
 .nav-menu.active{
     left:0;
@@ -51,10 +51,11 @@
 }
 .nav-menu-items{
     width: 100%;
+    
 }
 .navbar-toogle{
     background-color: #060b26;
-    width:100%;
+    /* width:100%; */
     height:80px;
     display: flex;
     justify-content:start;

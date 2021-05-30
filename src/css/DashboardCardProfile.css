@@ -2,8 +2,9 @@
     width: 300px;
     height: 250px;
     overflow: hidden;
-    box-shadow: 0px 1px 10px 1px black;
-    border-radius: 10px;
+    /* box-shadow: rgba(0, 204, 255, 0.2) 0px 60px 40px -7px; */
+    box-shadow: rgba(255, 138, 4, 0.726) 0px 50px 100px -20px, rgb(7, 187, 241) 0px 30px 60px -30px, rgba(245, 9, 233, 0.596) 0px -2px 6px 0px inset;
+    border-radius: 20px;
 }
 
 .image-container img{
@@ -11,7 +12,7 @@
     height: 100px;
     margin-left: 100px !important;
     margin-top: 30px !important;
-    box-shadow: 0px 0px 10px -8px;
+    /* box-shadow: rgba(0, 204, 255, 0.2) 0px 60px 40px -7px; */
 }
 
 .card-title-dashboard{

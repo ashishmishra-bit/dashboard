@@ -18,14 +18,14 @@ const showSidebar = () => setSidebar(!sidebar);
       <IconContext.Provider value={{color:'#ffffff'}}>
         <div className = "navbar">
             <Link to = "#" className = "menu-bars">                
-                <HeroIcons.HiOutlineMenuAlt2  onClick={showSidebar}/>
+                {/* <HeroIcons.HiOutlineMenuAlt2  onClick={showSidebar}/> */}
             </Link>
         </div>
         <nav className = { sidebar ? 'nav-menu active' : 'nav-menu' }>
             <ul className = "nav-menu-items" onClick={showSidebar}>
                 <li className = "navbar-toogle">
                     <Link to = "#" className = "menu-bars">
-                        <HeroIcons.HiX />
+                        {/* <HeroIcons.HiX /> */}
                     </Link>
                 </li>
                 {SidebarData.map((item , index) =>{
