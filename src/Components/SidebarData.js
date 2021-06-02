@@ -4,7 +4,7 @@ import * as HeroIcons from "react-icons/hi";
 
 export const SidebarData = [{
         title: "Profile",
-        path: "/",
+        path: "/profile",
         icon: < HeroIcons.HiDocumentText / > ,
         cName: "nav-text"
     },
