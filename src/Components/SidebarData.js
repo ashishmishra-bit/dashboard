@@ -2,7 +2,6 @@ import React from 'react'
 import * as HeroIcons from "react-icons/hi";
 
 
-
 export const SidebarData = [{
         title: "Profile",
         path: "/",
@@ -11,7 +10,7 @@ export const SidebarData = [{
     },
     {
         title: "Home",
-        path: "/home",        
+        path: "/home",
         icon: < HeroIcons.HiLibrary / > ,
         cName: "nav-text"
     },
