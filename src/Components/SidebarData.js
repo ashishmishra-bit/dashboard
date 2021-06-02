@@ -10,13 +10,13 @@ export const SidebarData = [{
     },
     {
         title: "Home",
-        path: "../pages/Home.js",
+        path: "/home",
         icon: < HeroIcons.HiLibrary / > ,
         cName: "nav-text"
     },
     {
         title: "Product",
-        path: "/",
+        path: "/product",
         icon: < HeroIcons.HiShoppingCart / > ,
         cName: "nav-text"
     },

@@ -1,0 +1,17 @@
+.product-main-container {
+  margin-left: 300px;
+}
+
+.div-one {
+    width: 1200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.div-in-one {
+    width: 800px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
