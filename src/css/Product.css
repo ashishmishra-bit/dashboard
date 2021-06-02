@@ -1,3 +1,19 @@
+.product-main-container {
+  margin-left: 300px;
+}
+
+.div-one {
+    width: 1200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.div-in-one {
+    width: 800px;
+  display: flex;
+  justify-content: space-around;
+}
+/* 
 h1{
     text-align:center;
     position: absolute;
@@ -9,4 +25,4 @@ h1{
 }
 div{
     background-color: black;
-}
+} */
