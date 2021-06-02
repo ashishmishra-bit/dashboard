@@ -14,7 +14,7 @@ function Product() {
             </div>
             <div className="div-inside-one">
               <ProductCard name="Product" value="1000" starts="4" />
-            </div  >
+            </div>
           </div>
           <ProductCard name="Product" value="1000" starts="4" />
         </div>
@@ -33,6 +33,6 @@ function Product() {
       </div>
     </>
   );
-}
 
+  }
 export default Product;

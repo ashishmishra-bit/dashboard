@@ -18,8 +18,8 @@
     justify-content: center;
     position: fixed;
     top: 0;
-    /* transition: 850ms;
-    left: -100%; */
+    transition: 850ms;
+    left: -100%;
 }
 .nav-menu.active{
     left:0;
